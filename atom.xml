@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Suncafe</title>
+  <subtitle>磊仔的小馆儿</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://suncafe.cc/"/>
+  <updated>2017-02-27T09:22:52.131Z</updated>
+  <id>http://suncafe.cc/</id>
+  
+  <author>
+    <name>磊仔</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://suncafe.cc/2017/02/27/hello-world/"/>
+    <id>http://suncafe.cc/2017/02/27/hello-world/</id>
+    <published>2017-02-27T09:22:52.131Z</published>
+    <updated>2017-02-27T09:22:52.131Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>what every browser konows about you</title>
+    <link href="http://suncafe.cc/2016/04/09/what-every-browser-konows-about-you/"/>
+    <id>http://suncafe.cc/2016/04/09/what-every-browser-konows-about-you/</id>
+    <published>2016-04-09T13:39:14.000Z</published>
+    <updated>2017-02-28T11:14:51.103Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>谈谈工具</title>
+    <link href="http://suncafe.cc/2016/04/08/my-new-post-1/"/>
+    <id>http://suncafe.cc/2016/04/08/my-new-post-1/</id>
+    <published>2016-04-08T14:53:47.000Z</published>
+    <updated>2017-02-28T11:14:51.099Z</updated>
+    
+    <content type="html"><![CDATA[<p>前一阵子Adobe公司发布了一款新软件叫Adobe XD，传言是Sketch的劲敌。Sketch也在设计圈里火了有段日子了，不过由于只有OS版本，在国内难以达到UI标配的程度。然而显然PS在界面设计方面是有点臃肿的，UI行业火爆到开始平息的时候新软件的出现为时不晚。如果如果XD发布windows版本，那么Sketch就真的有成为过客的危险了。</p>
+<p>高中毕业时候我在书店里买了一本Photoshop教程书，那时谈不上设计，但那时已是我接触生产力工具的启蒙，我被复杂的界面所倾倒，被变换的像素所震撼，被未知的强大所吸引。掰掰手指已是四年多，CS456到CC软件也算是伴随着我成长。如今我做前端的工作，每天面对更多的是文本编辑器和命令行工具，PS打开的时候越来越少了，这让我总有些不舍。</p>
+<p>如今的互联网行业真的是日新月异，各类开发设计原型巴拉巴拉的工具比比皆是群芳争艳乐此不疲。这其中自然也不乏开天辟地的神作。所有的工具都凝聚了开发人员的心血与智慧，然而并不是所有工具都适合你，选择自然是个问题。<br>1.最重要的你要做的是什么<br>2.有什么可选择你问google<br>3.别被学习曲线吓到也别死磕<br>4.计算时间成本</p>
+<p>本想总结一下前端开发工具然而发现善良的好多网友总结的比我的全的多，那么我来开启传送门。<br><a href="http://www.fefork.com/fetool/" target="_blank" rel="external">http://www.fefork.com/fetool/</a><br>感谢@nieweidong的前端工具集。</p>
+<p>另外今晚最重要的一句：真诚的向程序开发人员致敬！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前一阵子Adobe公司发布了一款新软件叫Adobe XD，传言是Sketch的劲敌。Sketch也在设计圈里火了有段日子了，不过由于只有OS版本，在国内难以达到UI标配的程度。然而显然PS在界面设计方面是有点臃肿的，UI行业火爆到开始平息的时候新软件的出现为时不晚。如果如果
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://suncafe.cc/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今天是个值得庆祝的好日子</title>
+    <link href="http://suncafe.cc/2016/04/07/my-new-post/"/>
+    <id>http://suncafe.cc/2016/04/07/my-new-post/</id>
+    <published>2016-04-06T16:38:59.000Z</published>
+    <updated>2017-02-28T11:14:51.099Z</updated>
+    
+    <content type="html"><![CDATA[<p>原因很简单，因为我开通了博客，哈哈哈</p>
+<p>还要练习使用markdown呢，希望自己坚持下去</p>
+<p>这篇博客呢，主要是记录一下自己的前端学习笔记，以及自己想说的话</p>
+<p>万事开头难，今天折腾了好久终于把博客搭建起来，感谢google 感谢网上所有无私奉献的人们</p>
+<p>千里之行始于足下，滴水穿石巴拉巴拉~</p>
+<p>Hello word！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原因很简单，因为我开通了博客，哈哈哈&lt;/p&gt;
+&lt;p&gt;还要练习使用markdown呢，希望自己坚持下去&lt;/p&gt;
+&lt;p&gt;这篇博客呢，主要是记录一下自己的前端学习笔记，以及自己想说的话&lt;/p&gt;
+&lt;p&gt;万事开头难，今天折腾了好久终于把博客搭建起来，感谢google 感谢网上所有无私
+    
+    </summary>
+    
+    
+      <category term="碎碎念" scheme="http://suncafe.cc/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+      <category term="深井冰" scheme="http://suncafe.cc/tags/%E6%B7%B1%E4%BA%95%E5%86%B0/"/>
+    
+  </entry>
+  
+</feed>
