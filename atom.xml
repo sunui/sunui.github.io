@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Suncafe</title>
+  <title>SunCafe</title>
   <subtitle>著意寻春不肯香 香在无寻处。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://suncafe.cc/"/>
-  <updated>2017-02-27T09:22:52.131Z</updated>
+  <updated>2017-03-01T17:56:42.122Z</updated>
   <id>http://suncafe.cc/</id>
   
   <author>
@@ -14,6 +14,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>相册</title>
+    <link href="http://suncafe.cc/2017/03/01/%E7%9B%B8%E5%86%8C/"/>
+    <id>http://suncafe.cc/2017/03/01/相册/</id>
+    <published>2017-03-01T15:56:02.000Z</published>
+    <updated>2017-03-01T17:56:42.122Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="照片" scheme="http://suncafe.cc/tags/%E7%85%A7%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

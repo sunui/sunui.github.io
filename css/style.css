@@ -123,7 +123,7 @@ body,
   height: 100%;
 }
 body {
-  background: #eee;
+  background: #efefef;
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
@@ -174,7 +174,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: #eee;
+  background: #efefef;
 }
 .mobile-nav-on #wrap {
   left: 280px;
@@ -326,10 +326,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/3.jpg") #000 fixed top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background: url("images/1.jpg") no-repeat #000 fixed top;
+  -webkit-background-size: corver;
+  -moz-background-size: corver;
+  background-size: corver;
   z-index: -1;
 }
 #header-title {
@@ -657,7 +657,7 @@ a.article-title:hover {
   line-height: 1em;
   padding: 6px 15px;
   border-radius: 15px;
-  background: #eee;
+  background: #efefef;
   color: #999;
   text-shadow: 0 1px #fff;
   text-decoration: none;
@@ -824,7 +824,7 @@ a.article-title:hover {
   line-height: 36px;
 }
 .article-share-links {
-  background: #eee;
+  background: #efefef;
 }
 .article-share-links:before,
 .article-share-links:after {
@@ -1091,7 +1091,7 @@ a.article-title:hover {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
-  background: #eee;
+  background: #efefef;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
