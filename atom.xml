@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://suncafe.cc/"/>
-  <updated>2017-03-01T17:56:42.122Z</updated>
+  <updated>2017-03-02T17:11:59.642Z</updated>
   <id>http://suncafe.cc/</id>
   
   <author>
@@ -16,11 +16,105 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>相册</title>
-    <link href="http://suncafe.cc/2017/03/01/%E7%9B%B8%E5%86%8C/"/>
-    <id>http://suncafe.cc/2017/03/01/相册/</id>
-    <published>2017-03-01T15:56:02.000Z</published>
-    <updated>2017-03-01T17:56:42.122Z</updated>
+    <title>我是怎么思考前端工程的</title>
+    <link href="http://suncafe.cc/2016/12/17/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%80%9D%E8%80%83%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E7%9A%84/"/>
+    <id>http://suncafe.cc/2016/12/17/我是怎么思考前端工程的/</id>
+    <published>2016-12-16T17:05:42.000Z</published>
+    <updated>2017-03-02T17:11:59.642Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是公司技术分享会上的分享笔记</p>
+<h3 id="前端目标："><a href="#前端目标：" class="headerlink" title="前端目标："></a>前端目标：</h3><ul>
+<li>对现有优秀框架的了解与整合使用</li>
+<li>根据项目的业务特点构建出合适的开发模式</li>
+<li>设计前端测试方案保证代码质量</li>
+<li>用工程化方案组织起团队的开发流程。</li>
+</ul>
+<h3 id="发展历程"><a href="#发展历程" class="headerlink" title="发展历程"></a>发展历程</h3><table>
+<thead>
+<tr>
+<th>历程</th>
+<th>经历</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WEB 1.0</td>
+<td>官网</td>
+</tr>
+<tr>
+<td>php asp jsp</td>
+<td>交易平台</td>
+</tr>
+<tr>
+<td>ajax富应用时代</td>
+<td>交易平台后台</td>
+</tr>
+<tr>
+<td>工程化大前端</td>
+<td>万有</td>
+</tr>
+</tbody>
+</table>
+<p>VR、可穿戴设备、智能家电…</p>
+<ul>
+<li>拉仇恨定律：任何能够用JavaScript实现的应用系统，最终都必将用JavaScript实现。 —— Atwood</li>
+</ul>
+<h3 id="痛点"><a href="#痛点" class="headerlink" title="痛点"></a>痛点</h3><ol>
+<li>代码耦合，前后端协作不顺畅</li>
+<li>前端工作流程繁琐</li>
+<li>代码复用性差，服务器压力大，后端API不通用</li>
+<li>首屏时间长，javascript代码增量大</li>
+<li>状态难以管理 路由控制 组件化</li>
+<li>依赖难以管理</li>
+<li>新语法的兼容性(浏览器)</li>
+<li>可维护性(全局变量)</li>
+<li>前端专属的开发服务器</li>
+<li>前端测试</li>
+</ol>
+<h3 id="万有前端的解决方案"><a href="#万有前端的解决方案" class="headerlink" title="万有前端的解决方案"></a>万有前端的解决方案</h3><blockquote>
+<p>面向企业 管理系统</p>
+</blockquote>
+<ol>
+<li>前后端分离</li>
+<li>webpack自动构建</li>
+<li>SPA =&gt;</li>
+<li>webpack打包 按需加载</li>
+<li>react react-router Redux(flux)</li>
+<li>npm</li>
+<li>babel</li>
+<li>es6 模块化</li>
+<li>webpack-dev-server</li>
+<li>karma</li>
+</ol>
+<h3 id="react"><a href="#react" class="headerlink" title="react"></a>react</h3><blockquote>
+<p>组件化使应用程序更易于开发和维护<br>学习曲线平缓，核心 API 简洁清晰，易于学习<br>JSX 语法不落俗套，充分发挥了 JavaScript 的能量<br>天生适配 Flux 和 Redux<br>社区活跃且具有创造力，奉献了诸多优秀的开发工具<br>单向数据流比双向数据绑定的方式更适合复杂应用程序，质量更高<br>支持服务端</p>
+</blockquote>
+<h3 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h3><blockquote>
+<p>通过配置可以应对各种情况<br>支持主流的模块加载方式（AMD，CommonJS，globals）<br>内部机制可以修复破损的模块<br>可以处理 CSS<br>全面的缓存系统<br>支持热重载<br>可以加载大多数的资源<br>提供高效的性能优化方案</p>
+</blockquote>
+<h3 id="改进："><a href="#改进：" class="headerlink" title="改进："></a>改进：</h3><blockquote>
+<p>jquery （fetch）<br>react-bootstrap<br>state  （redux）<br>test   （karma）<br>动画</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是公司技术分享会上的分享笔记&lt;/p&gt;
+&lt;h3 id=&quot;前端目标：&quot;&gt;&lt;a href=&quot;#前端目标：&quot; class=&quot;headerlink&quot; title=&quot;前端目标：&quot;&gt;&lt;/a&gt;前端目标：&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;对现有优秀框架的了解与整合使用&lt;/li&gt;
+&lt;li&gt;根据项目
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>my beatiful lover [Prisma]</title>
+    <link href="http://suncafe.cc/2016/12/07/%E7%9B%B8%E5%86%8C/"/>
+    <id>http://suncafe.cc/2016/12/07/相册/</id>
+    <published>2016-12-07T15:56:02.000Z</published>
+    <updated>2017-03-02T17:04:06.822Z</updated>
     
     <summary type="html">
     
@@ -32,52 +126,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://suncafe.cc/2017/02/27/hello-world/"/>
-    <id>http://suncafe.cc/2017/02/27/hello-world/</id>
-    <published>2017-02-27T09:22:52.131Z</published>
-    <updated>2017-02-27T09:22:52.131Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>what every browser konows about you</title>
-    <link href="http://suncafe.cc/2016/04/09/what-every-browser-konows-about-you/"/>
-    <id>http://suncafe.cc/2016/04/09/what-every-browser-konows-about-you/</id>
-    <published>2016-04-09T13:39:14.000Z</published>
-    <updated>2017-02-28T11:14:51.103Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>谈谈工具</title>
-    <link href="http://suncafe.cc/2016/04/08/my-new-post-1/"/>
-    <id>http://suncafe.cc/2016/04/08/my-new-post-1/</id>
-    <published>2016-04-08T14:53:47.000Z</published>
-    <updated>2017-02-28T11:14:51.099Z</updated>
+    <link href="http://suncafe.cc/2016/04/08/%E8%B0%88%E8%B0%88%E5%B7%A5%E5%85%B7/"/>
+    <id>http://suncafe.cc/2016/04/08/谈谈工具/</id>
+    <published>2016-04-08T14:33:32.000Z</published>
+    <updated>2017-03-02T16:22:56.587Z</updated>
     
     <content type="html"><![CDATA[<p>前一阵子Adobe公司发布了一款新软件叫Adobe XD，传言是Sketch的劲敌。Sketch也在设计圈里火了有段日子了，不过由于只有OS版本，在国内难以达到UI标配的程度。然而显然PS在界面设计方面是有点臃肿的，UI行业火爆到开始平息的时候新软件的出现为时不晚。如果如果XD发布windows版本，那么Sketch就真的有成为过客的危险了。</p>
 <p>高中毕业时候我在书店里买了一本Photoshop教程书，那时谈不上设计，但那时已是我接触生产力工具的启蒙，我被复杂的界面所倾倒，被变换的像素所震撼，被未知的强大所吸引。掰掰手指已是四年多，CS456到CC软件也算是伴随着我成长。如今我做前端的工作，每天面对更多的是文本编辑器和命令行工具，PS打开的时候越来越少了，这让我总有些不舍。</p>
@@ -99,10 +152,10 @@
   
   <entry>
     <title>今天是个值得庆祝的好日子</title>
-    <link href="http://suncafe.cc/2016/04/07/my-new-post/"/>
-    <id>http://suncafe.cc/2016/04/07/my-new-post/</id>
-    <published>2016-04-06T16:38:59.000Z</published>
-    <updated>2017-02-28T11:14:51.099Z</updated>
+    <link href="http://suncafe.cc/2016/04/08/%E4%BB%8A%E5%A4%A9%E6%98%AF%E4%B8%AA%E5%80%BC%E5%BE%97%E5%BA%86%E7%A5%9D%E7%9A%84%E5%A5%BD%E6%97%A5%E5%AD%90/"/>
+    <id>http://suncafe.cc/2016/04/08/今天是个值得庆祝的好日子/</id>
+    <published>2016-04-07T16:38:59.000Z</published>
+    <updated>2017-03-02T16:36:21.293Z</updated>
     
     <content type="html"><![CDATA[<p>原因很简单，因为我开通了博客，哈哈哈</p>
 <p>还要练习使用markdown呢，希望自己坚持下去</p>
@@ -125,6 +178,33 @@
       <category term="碎碎念" scheme="http://suncafe.cc/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
       <category term="深井冰" scheme="http://suncafe.cc/tags/%E6%B7%B1%E4%BA%95%E5%86%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://suncafe.cc/2016/04/07/hello-world/"/>
+    <id>http://suncafe.cc/2016/04/07/hello-world/</id>
+    <published>2016-04-07T12:53:47.000Z</published>
+    <updated>2017-03-02T16:35:57.619Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
     
   </entry>
   
