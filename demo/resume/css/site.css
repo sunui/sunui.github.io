@@ -85,7 +85,7 @@ a:hover {
     content: url(../img/separator.png);
     left: 20px; }
   .section .container h1 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin-bottom: 30px;
     position: relative; }
 
@@ -130,8 +130,15 @@ h1{
       .work .work-list li a:hover {
         border-bottom: 1px solid #333333; }
 
-.award .award-list {
-  margin-left: 0px; }
+.award .award-list .awardli{
+  margin-left: 0px;
+  font-size: 0.9em;
+  color: #888;
+}
+.award .award-list .awardli span{
+  font-weight: bold;
+  font-size: 0.9em;
+}
   .award .award-list li:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
@@ -164,7 +171,7 @@ footer {
       font-size: 1.25em;
       color: #99H9999; }
 .intro h1:before {
-      content: 'Web·D';
+      content: 'WEB·E';
     }
     .award-list span{
       font-weight: bold;
