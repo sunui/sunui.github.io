@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天气反馈</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="title">您的位置：</div>
+        <input id="positon" name="positon" type="text" 　placeholder="当前位置" />
+        <div class="title">实时天气：</div>
+        <div id="nweather">
+        </div>
+        <div class="title">请选择天气：</div>
+        <select name="uweather">
+            <option value="sun">晴</option>
+            <option value="snow">雪</option>
+            <option value="rain">雨</option>
+        </select>
+        <div class="title">联系方式：</div>
+        <input name="contact" type="text" placeholder="联系方式" />
+        <button>提交</button>
+    </form>
+    <script src="http://webapi.amap.com/maps?v=1.3&key=326d63c40ced5235fda9a8a1bc3fdd59"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
